@@ -1,0 +1,33 @@
+version: '3'
+
+networks:
+  denx-challenge:
+    external: false
+
+services:
+  front-end:
+    image: frontend
+    ports:
+      - 3000:3000
+    networks:
+      - denx-challenge
+  backend:
+    image: backend
+    ports:
+      - 8080:8080
+    environment:
+      - MONGO_HOST=some-mongo
+      - MONGO_PORT=27017
+    networks:
+      - denx-challenge
+  mongodb:
+    image: mongo
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb-data:/data/db
+    networks:
+      - denx-challenge
+
+volumes:
+  mongodb-data:
