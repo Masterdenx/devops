@@ -1,0 +1,97 @@
+[
+  {
+    "nombre": "Juan Pérez",
+    "correo_electronico": "juan.perez@ejemplo.com",
+    "edad": 25
+  },
+  {
+    "nombre": "Ana Martínez",
+    "correo_electronico": "ana.martinez@ejemplo.com",
+    "edad": 30
+  },
+  {
+    "nombre": "Pedro García",
+    "correo_electronico": "pedro.garcia@ejemplo.com",
+    "edad": 45
+  },
+  {
+    "nombre": "María López",
+    "correo_electronico": "maria.lopez@ejemplo.com",
+    "edad": 22
+  },
+  {
+    "nombre": "Luis González",
+    "correo_electronico": "luis.gonzalez@ejemplo.com",
+    "edad": 38
+  },
+  {
+    "nombre": "Sofia Rodriguez",
+    "correo_electronico": "sofia.rodriguez@ejemplo.com",
+    "edad": 27
+  },
+  {
+    "nombre": "David Romero",
+    "correo_electronico": "david.romero@ejemplo.com",
+    "edad": 50
+  },
+  {
+    "nombre": "Camila Díaz",
+    "correo_electronico": "camila.diaz@ejemplo.com",
+    "edad": 29
+  },
+  {
+    "nombre": "Miguel Torres",
+    "correo_electronico": "miguel.torres@ejemplo.com",
+    "edad": 42
+  },
+  {
+    "nombre": "Laura Fernández",
+    "correo_electronico": "laura.fernandez@ejemplo.com",
+    "edad": 35
+  },
+  {
+    "nombre": "Carlos López",
+    "correo_electronico": "carlos.lopez@ejemplo.com",
+    "edad": 21
+  },
+  {
+    "nombre": "Andrea Pérez",
+    "correo_electronico": "andrea.perez@ejemplo.com",
+    "edad": 31
+  },
+  {
+    "nombre": "Pablo García",
+    "correo_electronico": "pablo.garcia@ejemplo.com",
+    "edad": 48
+  },
+  {
+    "nombre": "Mariana Rodríguez",
+    "correo_electronico": "mariana.rodriguez@ejemplo.com",
+    "edad": 24
+  },
+  {
+    "nombre": "Alejandro González",
+    "correo_electronico": "alejandro.gonzalez@ejemplo.com",
+    "edad": 37
+  },
+  {
+    "nombre": "Valentina Romero",
+    "correo_electronico": "valentina.romero@ejemplo.com",
+    "edad": 28
+  },
+  {
+    "nombre": "Santiago Díaz",
+    "correo_electronico": "santiago.diaz@ejemplo.com",
+    "edad": 41
+  },
+  {
+    "nombre": "Isabella Torres",
+    "correo_electronico": "isabella.torres@ejemplo.com",
+    "edad": 23
+  },
+  {
+    "nombre": "Daniel Fernández",
+    "correo_electronico": "daniel.fernandez@ejemplo.com",
+    "edad": 36
+  }
+]
