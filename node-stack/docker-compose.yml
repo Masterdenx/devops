@@ -1,0 +1,30 @@
+services:
+  front-end:
+    image: frontend
+    ports:
+      - 3000:3000
+    networks:
+      - denx-challenge
+    environment:
+      - API_URI=http://backend:5000/api/topics
+  backend:
+    image: backend
+    ports:
+      - 8080:5000
+    environment:
+      - DATABASE_URL=mongodb://mongodb:27017
+    networks:
+      - denx-challenge
+  mongodb:
+    image: mongo
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb-data:/data/db
+    networks:
+      - denx-challenge
+volumes:
+  mongodb-data:
+networks:
+  denx-challenge:
+    name: denx-challenge
