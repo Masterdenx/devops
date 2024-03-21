@@ -1,0 +1,21 @@
+[
+  {
+  "_id": { "$oid" : "5fa2ca6abe7a379ec4234883" },
+  "topicName" : "Contenedores"
+  },
+
+  {
+  "_id": { "$oid" : "5fa2ca6abe7a379ec4234882" },
+  "topicName" : "Devops"
+  },
+
+  {
+  "_id": { "$oid" : "5fa2ca6abe7a379ec4234880" },
+  "topicName" : "Balanceador"
+  },
+
+  {
+  "_id": { "$oid" : "5fa2ca6abe7a379ec4234887" },
+  "topicName" : "Redes Neuronales"
+  }
+]

@@ -1,0 +1,40 @@
+services:
+  front-end:
+    image: front
+    ports:
+      - 8080:3000
+    networks:
+      - denx-challenge
+    environment:
+      - API_URI=http://backend:5000/api/topics
+  backend:
+    image: backend
+    ports:
+      - 5000:5000
+    environment:
+      - DATABASE_URL=mongodb://mongodb:27017
+    networks:
+      - denx-challenge
+
+  mongodb:
+    image: mongo
+    restart: always
+    container_name: mongo-docker
+  #  environment:
+     # MONGO_INITDB_ROOT_USERNAME: mongoadmin
+     # MONGO_INITDB_ROOT_PASSWORD: mongoadmin
+      #MONGODB_AUTH_DATABASE: admin
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb-data:/data/db
+    networks:
+      - denx-challenge
+
+volumes:
+  mongodb-data:
+    driver: local
+
+networks:
+  denx-challenge:
+    external: false
