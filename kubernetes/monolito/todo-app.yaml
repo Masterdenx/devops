@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: todo-app
-        image: jtrillo/monolith-in-mem #(otorgada por el profesor Jaime de forma temporal, ya que la original publicada tiene errores)
+        image: jtrillo/monolith-in-mem #(leer el readme)
         ports:
         - containerPort: 4000
         env:
