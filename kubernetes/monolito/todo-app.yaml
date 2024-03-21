@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: todo-app-denx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: todo-app-denx
+  template:
+    metadata:
+      labels:
+        app: todo-app-denx
+    spec:
+      containers:
+      - name: todo-app
+        image: jtrillo/monolith-in-mem #(otorgada por el profesor Jaime de forma temporal, ya que la original publicada tiene errores)
+        ports:
+        - containerPort: 4000
+        env:
+        - name: NODE_ENV
+          value: monolito
+        - name: PORT
+          value: "4000"  #Aqui se asigna el puerto a conveniencia
