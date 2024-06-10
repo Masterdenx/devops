@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Verificando parametros mis parametros URL y palabra
+# Verificando los parametros (URL y palabra)
 if [ "$#" -ne 2 ]; then
     echo "Se necesitan unicamente dos parametros para ejecutar este script"
     exit 1
